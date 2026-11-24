@@ -1,0 +1,14 @@
+[Unit]
+Description=FusionPBX Ringotel Sync
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/php /var/www/fusionpbx/app/ringotel/resources/service/ringotel.php
+User=www-data
+Group=www-data
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
