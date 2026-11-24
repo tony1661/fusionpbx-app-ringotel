@@ -36,7 +36,7 @@ A few other things worth knowing:
 
    ```
    cd /var/www/fusionpbx/app
-   git clone https://github.com/tony1661/fusionpbx-ringotel.git ringotel
+   git clone https://github.com/tony1661/fusionpbx-app-ringotel.git ringotel
    chown -R www-data:www-data /var/www/fusionpbx/app/ringotel
    ```
 
